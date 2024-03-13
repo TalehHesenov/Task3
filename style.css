@@ -39,7 +39,6 @@ body{
 
 
 .main_header{
-    
     background: #ca1016;
     height: 60px;
     margin-top: 10px;
@@ -345,17 +344,25 @@ footer a{
     font-size: 15px;
     color: #fff;
 }
-
-
-
-@media only screen and (max-width: 1433px) {
- .main_header h1{
-   font-size: 20px;
-   padding: 15px;
-}
-
+    @media only screen and (max-width: 1433px) {
+        .main_header nav ul li a {
+            font-size: 16px;
+        }
+   }
+    @media only screen and (max-width: 1392px) {
+        .main_header h1{
+          font-size: 14px;
+       }
+       .main_header nav ul li a {
+        font-size: 12px;
+    }
+   }
    
-}
+  
+
+
+
+
 
  
 
